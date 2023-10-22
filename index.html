@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iphone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo-iphone" src="imgs/logo.png" alt="logo-iphone" />
+
+      <ul>
+        <li>Mac</li>
+        <li>iPhone</li>
+        <li>iPad</li>
+        <li>Watch</li>
+        <li>AirPods</li>
+        <li>Acessórios</li>
+        <li>Suporte</li>
+      </ul>
+    </header>
+
+    <div class="container">
+      <section class="section-1">
+        <h1>iPhone 14</h1>
+        <h2>Tão poderoso. Tão ao seu alcance.</h2>
+        <p>Em dois tamanhos pereitos. Agora com toque amarelo</p>
+        <h3>Apartir de 635,25/mes ou 7.599,00 á vista</h3>
+        <button>Complar</button>
+        <p class="escolha-cor">Escolha sua cor:</p>
+
+        <div class="cores">
+          <button
+            onclick="trocaCor('#81A5C4'); trocaImg('./imgs/iphone-azul.png')"
+            class="azul troca-cor"
+            title="azul"
+          ></button>
+          <button
+            onclick="trocaCor('#F7DA47'); trocaImg('./imgs/iphone-amarelo.png')"
+            class="amarelo troca-cor"
+            title="amarelo"
+          ></button>
+          <button
+            onclick="trocaCor('#C1C1C1'); trocaImg('./imgs/iphone-branco.png')"
+            class="branco troca-cor"
+            title="branco"
+          ></button>
+          <button
+            onclick="trocaCor('#000000'); trocaImg('./imgs/iphone-preto.png')"
+            class="preto troca-cor"
+            title="preto"
+          ></button>
+          <button
+            onclick="trocaCor('#b50012'); trocaImg('./imgs/iphone-vermelho.png')"
+            class="vermelho troca-cor"
+            title="vermelho"
+          ></button>
+          <button
+            onclick="trocaCor('#EDE7F1'); trocaImg('./imgs/iphone-roxo.png')"
+            class="roxo troca-cor"
+            title="roxo"
+          ></button>
+        </div>
+      </section>
+
+      <section class="section-2">
+        <div class="circulo"></div>
+        <img class="iphone-img" src="imgs/iphone-azul.png" alt="Iphone" />
+      </section>
+    </div>
+  </body>
+</html>
